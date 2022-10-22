@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final test website</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Q1Q2_app.css" />
+  </head>
+
+  <body>
+    <script src="Q1Q2.js"></script>
+    <div class = "header">
+      <h1>Final test website</h1>
+      <a href="https://www.linkedin.com/in/nhan-phamtri/">Contact</a>
+    </div>
+    <h1 style = "padding-top: 250px;text-align: center;">Hiển thị số nguyên tố</h1>
+    <p style = "margin-left: 30px;">Vui lòng nhập số nguyên bắt đầu và số nguyên kết thúc:</p>
+    <form action="/" id="form" name="form">
+      <hr />
+      <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+      <input
+        type="text"
+        name="a"
+        id="a"
+        placeholder="Nhập số bắt đầu..."
+        required
+      />
+      <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+      <input
+        type="text"
+        name="b"
+        id="b"
+        placeholder="Nhập số kết thúc..."
+        required
+      />
+      <hr />
+      <div>
+        <button id="submit_1" type="button" onclick="prime()">Show result</button>
+      </div>
+      <h4 id="output_prime"></h4>
+    </form>
+    <h1 style = "text-align: center;">In hình tam giác</h1>
+    <p style="margin-left: 30px;" >Vui lòng nhập chiều cao của tam giác:</pStyle>
+    <form action="/" id="form" name="form">
+        <hr />
+        <input
+          type="text"
+          name="num"
+          id="num"
+          placeholder="Nhập một số nguyên..."
+          required
+        />
+        <hr />
+        <div>
+          <button type="button" onclick="numberOneTriangle()">Show result</button>
+        </div>
+        <pre id="output_triangle"></pre>
+      </form>
+      <a href="#top" class="btn">Back to top </a>
+</body>
+</html>

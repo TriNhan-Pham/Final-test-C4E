@@ -1,0 +1,91 @@
+
+html {
+  font-family: Jetbrains Mono;
+  background-color: lightblue;
+  scroll-behavior: smooth;
+}
+form {
+  margin: 0 30px;
+}
+
+.header{
+  padding: 10px;
+  text-align: left;
+  background: rgb(255, 238, 132);
+  color: black;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow: 5px 10px #888888;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.header a {
+  font-size: 30px;
+  font-family: Jetbrains Mono;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 104px;
+}
+
+.header a:hover {
+  background: #ddd;
+  color: black;
+}
+
+input[type="text"] {
+  font-style: Jetbrains Mono;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  width: auto;
+  border: solid 3px black;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: rgb(255, 238, 132);;
+}
+button {
+  font-size: 20px;
+  position: relative;
+  bottom: 8px;
+  background-color: rgb(255, 238, 132);
+  font-family: Jetbrains Mono;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid;
+  margin-top: 10px;
+  color: black;
+  transition: 0.3s;
+}
+button:hover {
+  padding: 20px 20px 20px 20px;
+}
+
+.btn {
+  position: fixed;
+  left: 50%;
+  bottom: 8px;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  background-color: rgb(255, 238, 132);
+  font-family: Jetbrains Mono;
+  font-size: 20px;
+  font-style: bold;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid;
+  opacity: 0.6;
+  transition: 0.3s;
+  color: black;
+}
+.btn:hover{
+  opacity: 1;
+  padding: 20px 20px 20px 20px;
+}
